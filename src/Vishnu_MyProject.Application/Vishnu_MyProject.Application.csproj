@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>Vishnu_MyProject.Application</AssemblyName>
+    <PackageId>Vishnu_MyProject.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>Vishnu_MyProject</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vishnu_MyProject.Core\Vishnu_MyProject.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Vishnu_MyProject.EntityFrameworkCore">
+      <HintPath>..\Vishnu_MyProject.EntityFrameworkCore\bin\Debug\netcoreapp2.1\Vishnu_MyProject.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
